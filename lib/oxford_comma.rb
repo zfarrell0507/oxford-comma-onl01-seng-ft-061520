@@ -16,7 +16,17 @@ def oxford_comma(array)
     array.join(", ")
     puts array
   
-
+  elsif array.size == 5
+    array.join(", ")
+    puts array
+  
+  elsif array.size == 6
+    array.join(", ")
+    puts array
+  
+  elsif array.size == 7
+    array.join(", ")
+    puts array
   
   
   
