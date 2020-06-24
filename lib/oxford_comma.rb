@@ -9,8 +9,8 @@ def oxford_comma(array)
     puts array
   
   elsif array.size == 3
-    array.push
-    array.
+    array.pop
+    array.push("and #{array.}")
     array.join(", ")
     puts array
   
