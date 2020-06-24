@@ -9,6 +9,7 @@ def oxford_comma(array)
     puts array
   
   elsif array.size == 3
+    array.
     array.join(", ")
     puts array
   
