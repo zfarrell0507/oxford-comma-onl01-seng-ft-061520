@@ -14,7 +14,7 @@ def oxford_comma(array)
     puts array
   
   elsif array.size == 4
-    array.select!
+    array.insert(array.index { |instance|
     array.join(", ")
     puts array
   
