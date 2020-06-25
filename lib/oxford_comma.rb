@@ -13,11 +13,9 @@ def oxford_comma(array)
   
   else
     array.join
-    
+    puts array
+    array
   
   end
-  puts array
-  array
-  
 end
 oxford_comma(array)
