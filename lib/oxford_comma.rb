@@ -20,6 +20,4 @@ def oxford_comma(array)
   end
   array.join(", ") if array.size > 2 end
   array.join(" ") if array.size == 2 end
-  
-end
 oxford_comma(array)
