@@ -15,4 +15,4 @@ def oxford_comma(array)
   array
   
 end
-oxford_comma("kiwi")
+oxford_comma(array)
