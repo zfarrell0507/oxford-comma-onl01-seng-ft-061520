@@ -1,45 +1,11 @@
 array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits", "lychee", "pomelos"]
 def oxford_comma(array)
-  if array.size == 1
-    array.join
-    puts array
 
-  elsif array.size == 2
-    array.join(", ")
-    puts array
-  
-  elsif array.size == 3
-    array.pop(3)
-    array.join(", ")
-    puts array
-  
-  elsif array.size == 4
-    array.insert(3, )
-    array.join(", ")
-    puts array
-  
-  elsif array.size == 5
-    array.join(", ")
-    puts array
-  
-  elsif array.size == 6
     def oxford_comma(list)
   list.join(' and ') if list.size < 3
   list[-1] = "and " + list[-1]
   list.join(', ')
 end
-  
-  elsif array.size == 7
-    array.join(", ")
-    puts array
-  
-  
-  
-  end
-end
-
-
-
 
 describe "#oxford_comma" do
   it 'returns a string without any additional formatting when given a 1-element array' do
