@@ -2,7 +2,7 @@ array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits", "lychee", "po
 def oxford_comma(array)
 
     def oxford_comma(list)
-  list.join(' and ') if list.size < 3
+  list.join(' ') if list.size < 3
   list[-1] = "and " + list[-1]
   list.join(', ')
 end
