@@ -7,6 +7,7 @@ def oxford_comma(array)
   
   elsif array.size > 2
     array[-1] = "and " + array[-1] 
+    
     puts array
     array
   
@@ -16,6 +17,5 @@ def oxford_comma(array)
     array
   
   end
-  array.join(", ")
 end
 oxford_comma(array)
