@@ -16,8 +16,6 @@ def oxford_comma(array)
     array
   
   end
-  array.join(", ") if array.size < 2
-  puts array
-  array
+  array.join(", ")
 end
 oxford_comma(array)
