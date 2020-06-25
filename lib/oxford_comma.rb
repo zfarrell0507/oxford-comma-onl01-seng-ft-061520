@@ -18,7 +18,6 @@ def oxford_comma(array)
     array
   
   end
-  while array == 2 array.join
-  
+  array.join(,)
 end
 oxford_comma(array)
