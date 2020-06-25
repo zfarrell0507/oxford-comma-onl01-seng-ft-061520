@@ -7,9 +7,8 @@ def oxford_comma(array)
     array[-1] = "and " + array[-1] 
     array.join(", ")
   
-   elsif
-  
-  array.join if array.size <= 1
+  elsif array.size <= 1
+    
   
   puts array
   array
