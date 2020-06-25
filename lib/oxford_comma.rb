@@ -18,6 +18,6 @@ def oxford_comma(array)
     array
   
   end
-  array.join(" ")
+  array.join(", ")
 end
 oxford_comma(array)
