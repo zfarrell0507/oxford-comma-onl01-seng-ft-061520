@@ -7,10 +7,12 @@ def oxford_comma(array)
     array[-1] = "and " + array[-1] 
     array.join(", ")
   
-  els array.size <= 1
+  else
     array.join
   
+  end
   puts array
   array
+  
 end
 oxford_comma("kiwi")
