@@ -7,4 +7,4 @@ def oxford_comma(array)
   puts array
   array
 end
-oxford_comma(array)
+oxford_comma("kiwi")
