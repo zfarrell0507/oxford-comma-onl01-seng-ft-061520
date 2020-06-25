@@ -13,7 +13,7 @@ def oxford_comma(array)
     array
   
   else
-    array.join
+    array.join()
     puts array
     array
   
